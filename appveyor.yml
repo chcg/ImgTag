@@ -9,7 +9,7 @@ environment:
 
 platform:
     - x64
-    - AnyCPU
+    - x86
 
 configuration:
     - Release
@@ -19,8 +19,8 @@ install:
     - if "%platform%"=="x64" set archi=amd64
     - if "%platform%"=="x64" set platform_input=x64
 
-    - if "%platform%"=="AnyCPU" set archi=x86
-    - if "%platform%"=="AnyCPU" set platform_input=AnyCPU
+    - if "%platform%"=="x86" set archi=x86
+    - if "%platform%"=="x86" set platform_input=x86
 
     - if "%PlatformToolset%"=="VS15" call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %archi%
     - if "%PlatformToolset%"=="VS17" call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
@@ -35,11 +35,11 @@ after_build:
     - ps: >-
 
         if ($env:PLATFORM_INPUT -eq "x64") {
-            Push-AppveyorArtifact "ImgTag\bin\$env:PLATFORM\$env:CONFIGURATION\ImgTag.dll" -FileName ImgTag.dll
+            #Push-AppveyorArtifact "ImgTag\bin\$env:PLATFORM\$env:CONFIGURATION\ImgTag.dll" -FileName ImgTag.dll
         }
 
-        if ($env:PLATFORM_INPUT -eq "Win32" ) {
-            Push-AppveyorArtifact "ImgTag\bin\$env:CONFIGURATION\ImgTag.dll" -FileName ImgTag.dll
+        if ($env:PLATFORM_INPUT -eq "x86" ) {
+            #Push-AppveyorArtifact "ImgTag\bin\$env:CONFIGURATION\ImgTag.dll" -FileName ImgTag.dll
         }
 
         if ($($env:APPVEYOR_REPO_TAG) -eq "true" -and $env:CONFIGURATION -eq "Release" -and $env:PLATFORMTOOLSET -eq "VS15") {
@@ -47,7 +47,7 @@ after_build:
             $ZipFileName = "ImgTag_$($env:APPVEYOR_REPO_TAG_NAME)_x64.zip"
             7z a $ZipFileName "$($env:APPVEYOR_BUILD_FOLDER)\bin\ImgTag\$env:PLATFORM_INPUT\$env:CONFIGURATION\*.dll"
             }
-            if($env:PLATFORM_INPUT -eq "Win32"){
+            if($env:PLATFORM_INPUT -eq "x86"){
             $ZipFileName = "ImgTag_$($env:APPVEYOR_REPO_TAG_NAME)_x86.zip"
             7z a $ZipFileName "$($env:APPVEYOR_BUILD_FOLDER)\bin\ImgTag\$env:CONFIGURATION\*.dll"
             }
