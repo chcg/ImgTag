@@ -1,0 +1,14 @@
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\bin\Debug\ImgTag.dll
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\bin\Debug\ImgTag.pdb
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.AboutDlg.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.ImgGalleryDlg.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.InputBox.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.Properties.Resources.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.ResizingDialog.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.ToolWindow.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\GenerateResource-ResGen.read.6.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.dll
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Debug\ImgTag.pdb

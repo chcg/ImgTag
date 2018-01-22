@@ -1,0 +1,16 @@
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\bin\Release\ImgTag.dll
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\bin\Release\ImgTag.pdb
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.Properties.Resources.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.dll
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.pdb
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.InputBox.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.ResizingDialog.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.ToolWindow.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.ImgGalleryDlg.resources
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\GenerateResource-ResGen.read.6.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\salvatore\Documenti\Progetti\dotNET\ImgTag\ImgTag\obj\Release\ImgTag.AboutDlg.resources
