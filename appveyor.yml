@@ -1,11 +1,10 @@
 version: 2.0.1.{build}
-image: Visual Studio 2017
+image: Visual Studio 2019
 
 
 environment:
   matrix:
-  - PlatformToolset: VS15
-  - PlatformToolset: VS17
+  - PlatformToolset: VS19
 
 platform:
     - x64
@@ -22,8 +21,7 @@ install:
     - if "%platform%"=="x86" set archi=x86
     - if "%platform%"=="x86" set platform_input=x86
 
-    - if "%PlatformToolset%"=="VS15" call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %archi%
-    - if "%PlatformToolset%"=="VS17" call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
+    - if "%PlatformToolset%"=="VS19" call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" %archi%
 
 
 build_script:
